@@ -2,7 +2,7 @@ import { OrbitControls, PerspectiveCamera, useGLTF } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 
 const Character = () => {
-  const character = useGLTF('/valleSoftware2.glb');
+  const character = useGLTF('/valleSoftware.glb');
 
   return (
     <group>
