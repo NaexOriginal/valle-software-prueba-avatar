@@ -5,7 +5,7 @@ import { NavBarSticky } from "../components/navbar/NavBarSticky"
 
 export const LandingPage = () => {
   return (
-    <>
+    <div className="bg-gray-950 text-white">
       <NavBarSticky />
 
       <div className="flex justify-evenly p-10 pl-40 pr-40">
@@ -18,7 +18,7 @@ export const LandingPage = () => {
 
       </div>
 
-      <div>
+      <div id="Sobre-Nosotros">
         <h2 className="text-center text-6xl ">Sobre Nosotros</h2>
 
         <div className="flex">
@@ -34,7 +34,10 @@ export const LandingPage = () => {
         </div>
       </div>
 
-      <div className="p-5">
+      <div 
+        id="Servicios"
+        className="p-5"
+      >
         <h2 className="text-center text-6xl">Servicios</h2>
         
         <div className="flex flex-col pt-14 space-y-8">
@@ -57,6 +60,10 @@ export const LandingPage = () => {
       
       <CardEmployed />
       <ContactForm />
-    </>
+
+      <footer>
+        
+      </footer>
+    </div>
   )
 }

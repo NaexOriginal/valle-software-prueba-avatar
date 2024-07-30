@@ -1,13 +1,13 @@
 
 export const CardEmployed = () => {
   return (
-    <div className="p-5">
-        <h2 className="text-center text-6xl">Equipo</h2>
+    <div id="Equipo" className="flex flex-col p-5 items-center">
+        <h2 className="text-center text-6xl pb-14">Equipo</h2>
       
-      <div className="max-w-xs bg-slate-950 text-white p-6 rounded-lg shadow-lg">
+      <div className="max-w-xs bg-slate-900 text-white p-6 rounded-lg shadow-lg">
         <div className="flex items-center justify-between">
           
-          <img src="" alt="Logo" className="w-12 h-12 " />
+          <img src="/LogoValleDelSoftware.svg" alt="Logo" className="w-15 h-12 transform" />
         </div>
         <div className="mt-4">
           <div className="flex items-center justify-center mb-2">

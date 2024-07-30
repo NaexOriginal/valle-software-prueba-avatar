@@ -1,7 +1,7 @@
 
 export const ContactForm = () => {
   return (
-    <div className="p-5">
+    <div id="Contactanos" className="p-5">
       <h2 className="text-start text-6xl">Contactanos</h2>
       <p className="pt-5 text-xl mb-5">Contacta con nosotros para ver en que podemos coloborarte</p>
 
