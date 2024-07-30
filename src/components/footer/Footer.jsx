@@ -1,11 +1,13 @@
-import { Link, animateScroll as scroll } from "react-scroll"
+import React from 'react'
+import { Link } from 'react-scroll'
 
-
-export const NavBarSticky = () => {
+export const Footer = () => {
   return (
-    <header className='fixed top-0 w-full flex justify-center p-5 bg-gray-900 text-white z-50'>
-      <nav>
-        <ul className='flex items-center space-x-12'>
+    <div className=''>
+      <footer className='flex flex-col items-center w-full'>
+        <img src="/LogoValleDelSoftware.svg" alt="Logo Valle Software" className="h-20 w-20 relative z-10"/>
+
+        <ul className='flex items-center space-x-12 pt-4'>
           <li>
             <Link
               to="Sobre-Nosotros"
@@ -28,15 +30,6 @@ export const NavBarSticky = () => {
             >
               Servicios
             </Link>
-          </li>
-
-          <li>
-            <img 
-              src="/LogoValleDelSoftware.svg" 
-              alt="Logo Valle Software" 
-              onClick={() => scroll.scrollToTop()}
-              className='w-12 h-12'
-            />
           </li>
 
           <li>
@@ -63,7 +56,9 @@ export const NavBarSticky = () => {
             </Link>
           </li>
         </ul>
-      </nav>
-    </header>
+
+        <p className='p-5'>©2024 Todos los Derechos Reservados por Valle del Software</p>
+      </footer>
+    </div>
   )
 }

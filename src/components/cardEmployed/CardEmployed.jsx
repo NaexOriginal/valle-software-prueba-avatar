@@ -1,7 +1,7 @@
 
 export const CardEmployed = () => {
   return (
-    <div id="Equipo" className="flex flex-col p-5 items-center">
+    <div id="Equipo" className="flex flex-col p-5 items-center min-h-screen">
         <h2 className="text-center text-6xl pb-14">Equipo</h2>
       
       <div className="max-w-xs bg-slate-900 text-white p-6 rounded-lg shadow-lg">

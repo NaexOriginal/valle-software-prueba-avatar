@@ -1,24 +1,17 @@
 import { Avatar } from "../components/avatar/Avatar"
 import { CardEmployed } from "../components/cardEmployed/CardEmployed"
 import { ContactForm } from "../components/contactForm/ContactForm"
+import { Footer } from "../components/footer/Footer"
 import { NavBarSticky } from "../components/navbar/NavBarSticky"
 
 export const LandingPage = () => {
   return (
     <div className="bg-gray-950 text-white">
       <NavBarSticky />
+      <Avatar />
 
-      <div className="flex justify-evenly p-10 pl-40 pr-40">
-        <div className="p-10">
-          <h1 className="text-7xl">Valle del Software</h1>
-          <p className="pt-8 text-xl">Bienvid@ al Valle del Software, nosotros nos encargamos de realizar sus trabajos a nombre de Universitaria de Colombia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo assumenda sapiente inventore maiores excepturi numquam pariatur doloremque alias optio porro. Molestiae libero sit temporibus modi soluta ipsum, beatae voluptate recusandae quis nihil, perspiciatis quae ipsam sint iste porro, laboriosam harum optio inventore voluptates? Eius tenetur excepturi fuga, pariatur labore illo architecto velit sapiente inventore? Porro ipsam ipsa repellendus, odio ducimus, accusantium cum molestias labore minima illum eius sit rem animi rerum nesciunt sequi repudiandae tempora! Quia incidunt aut sit unde.</p>
-        </div>
 
-        <Avatar />
-
-      </div>
-
-      <div id="Sobre-Nosotros">
+      <div id="Sobre-Nosotros" className="min-h-screen">
         <h2 className="text-center text-6xl ">Sobre Nosotros</h2>
 
         <div className="flex">
@@ -36,7 +29,7 @@ export const LandingPage = () => {
 
       <div 
         id="Servicios"
-        className="p-5"
+        className="p-5 min-h-screen"
       >
         <h2 className="text-center text-6xl">Servicios</h2>
         
@@ -60,10 +53,7 @@ export const LandingPage = () => {
       
       <CardEmployed />
       <ContactForm />
-
-      <footer>
-        
-      </footer>
+      <Footer />
     </div>
   )
 }
