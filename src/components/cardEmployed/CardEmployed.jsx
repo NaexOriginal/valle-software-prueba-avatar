@@ -4,7 +4,7 @@ export const CardEmployed = () => {
     <div id="Equipo" className="flex flex-col p-5 items-center min-h-screen">
         <h2 className="text-center text-6xl pb-14">Equipo</h2>
       
-      <div className="max-w-xs bg-slate-900 text-white p-6 rounded-lg shadow-lg">
+      <div className="max-w-xs bg-slate-900 border border-gray-800 text-white p-6 rounded-lg shadow-lg">
         <div className="flex items-center justify-between">
           
           <img src="/LogoValleDelSoftware.svg" alt="Logo" className="w-15 h-12 transform" />

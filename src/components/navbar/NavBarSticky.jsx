@@ -11,7 +11,7 @@ export const NavBarSticky = () => {
   return (
     <header className='fixed top-0 w-full bg-gray-900 text-white z-50'>
       <nav className='flex justify-between items-center p-5'>
-        <div className='flex items-center space-x-12'>
+        <div className='flex items-center justify-center space-x-4 md:space-x-6 w-full'>
           <button
             className='md:hidden text-white focus:outline-none'
             onClick={toggleMenu}
@@ -38,14 +38,12 @@ export const NavBarSticky = () => {
           >
             Servicios
           </Link>
-        </div>
-        <img
-          src="/LogoValleDelSoftware.svg"
-          alt="Logo Valle Software"
-          onClick={() => scroll.scrollToTop()}
-          className='w-12 h-12 cursor-pointer'
-        />
-        <div className='flex items-center space-x-12'>
+          <img
+            src="/LogoValleDelSoftware.svg"
+            alt="Logo Valle Software"
+            onClick={() => scroll.scrollToTop()}
+            className='w-12 h-12 cursor-pointer mx-auto'
+          />
           <Link
             to="Equipo"
             smooth={true}
