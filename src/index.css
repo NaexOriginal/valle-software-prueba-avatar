@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #0693be #001033;
+  font-family: "Rubik", sans-serif;
 }

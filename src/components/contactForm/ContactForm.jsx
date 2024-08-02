@@ -1,6 +1,6 @@
 export const ContactForm = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen  bg-gray-950 p-4">
+    <div className="flex justify-center items-center min-h-screen bg-gray-950 p-4">
       <div id="Contactanos" className="bg-gray-900 border border-gray-800 p-8 rounded-lg shadow-lg w-full max-w-2xl mx-auto">
         <h2 className="text-white text-center text-4xl md:text-5xl mb-6 font-extrabold">Contáctanos</h2>
         <p className="text-white text-center text-lg md:text-xl mb-8">Contacta con nosotros para ver en qué podemos colaborarte</p>

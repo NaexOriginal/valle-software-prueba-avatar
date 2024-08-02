@@ -1,0 +1,32 @@
+.navbar-background {
+  background-color: rgb(0, 0, 0);;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background-color: #52e8f3;    /* Naranja: #ff5722*/
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #52e8f3;     /* Naranja: #ff5722*/
+}

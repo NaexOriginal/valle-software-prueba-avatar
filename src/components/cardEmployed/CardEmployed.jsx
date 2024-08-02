@@ -1,7 +1,9 @@
+import '../ui/background.css'
+
 export const CardEmployed = () => {
   return (
-    <div id="Equipo" className="flex flex-wrap p-5 items-center min-h-screen justify-center">
-        <h2 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800 mb-12 text-center text-6xl pb-14 w-full ">Equipo</h2>
+    <div id="Equipo" className="bg-black-custom flex flex-wrap p-5 items-center min-h-screen justify-center">
+        <h2 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800 mb-12 text-center pb-14 w-full ">Equipo</h2>
       
       <div className="max-w-xs bg-slate-900 border border-gray-800 text-white p-6 rounded-lg shadow-lg m-4">
         <div className="flex items-center justify-between">

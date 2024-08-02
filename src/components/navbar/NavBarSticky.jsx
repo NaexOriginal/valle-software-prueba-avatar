@@ -1,15 +1,19 @@
 import { useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+import useNavBarAnimation from '../../hooks/navBarAnimation/useNavBarAnimation'; // Importa el hook de scroll
+
+import './navbarAnimation.css';
 
 export const NavBarSticky = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const scrolling = useNavBarAnimation(); 
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
   return (
-    <header className='fixed top-0 w-full bg-gray-900 text-white z-50'>
+    <nav className={`fixed w-full text-white z-50 ${scrolling ? 'navbar-background' : ''}`}>
       <nav className='flex justify-between items-center p-5'>
         <div className='flex items-center justify-center space-x-4 md:space-x-6 w-full'>
           <button
@@ -23,9 +27,9 @@ export const NavBarSticky = () => {
           <Link
             to="Sobre-Nosotros"
             smooth={true}
-            offset={-100}
+            offset={-50}
             duration={1000}
-            className="hidden md:block cursor-pointer font-bold"
+            className="nav-link hidden md:block cursor-pointer"
           >
             Sobre Nosotros
           </Link>
@@ -34,7 +38,7 @@ export const NavBarSticky = () => {
             smooth={true}
             offset={-70}
             duration={1000}
-            className="hidden md:block cursor-pointer font-bold"
+            className="nav-link hidden md:block cursor-pointer"
           >
             Servicios
           </Link>
@@ -49,7 +53,7 @@ export const NavBarSticky = () => {
             smooth={true}
             offset={-70}
             duration={1000}
-            className="hidden md:block cursor-pointer font-bold"
+            className="nav-link hidden md:block cursor-pointer"
           >
             Equipo
           </Link>
@@ -58,7 +62,7 @@ export const NavBarSticky = () => {
             smooth={true}
             offset={-70}
             duration={1000}
-            className="hidden md:block cursor-pointer font-bold"
+            className="nav-link hidden md:block cursor-pointer"
           >
             Contacta con Nosotros
           </Link>
@@ -70,7 +74,7 @@ export const NavBarSticky = () => {
           smooth={true}
           offset={-100}
           duration={1000}
-          className="block py-2 cursor-pointer font-bold"
+          className="nav-link block py-2 cursor-pointer"
           onClick={toggleMenu}
         >
           Sobre Nosotros
@@ -80,7 +84,7 @@ export const NavBarSticky = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="block py-2 cursor-pointer font-bold"
+          className="nav-link block py-2 cursor-pointer"
           onClick={toggleMenu}
         >
           Servicios
@@ -90,7 +94,7 @@ export const NavBarSticky = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="block py-2 cursor-pointer font-bold"
+          className="nav-link block py-2 cursor-pointer"
           onClick={toggleMenu}
         >
           Equipo
@@ -100,12 +104,12 @@ export const NavBarSticky = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="block py-2 cursor-pointer font-bold"
+          className="nav-link block py-2 cursor-pointer"
           onClick={toggleMenu}
         >
           Contacta con Nosotros
         </Link>
       </div>
-    </header>
+    </nav>
   );
 };

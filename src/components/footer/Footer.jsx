@@ -1,10 +1,11 @@
-import React from 'react'
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
+
+import '../ui/background.css';
 
 export const Footer = () => {
   return (
-    <div className=''>
-      <footer className='flex flex-col items-center w-full'>
+    <div className='bg-black-custom'>
+      <footer className='flex flex-col items-center w-full pt-5'>
         <img src="/LogoValleDelSoftware.svg" alt="Logo Valle Software" className="h-20 w-20 relative z-10"/>
 
         <ul className='flex items-center space-x-12 pt-4'>

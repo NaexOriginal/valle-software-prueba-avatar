@@ -1,9 +1,10 @@
-import { AvatarCanvas } from "./AvatarCanvas";
+import { AvatarCanvas } from "../avatar/AvatarCanvas";
 
-export const Avatar = () => {
+export const CardPresentation = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center p-16 pl-10 pr-10 md:pl-40 md:pr-40 min-h-screen">
-      <div className="flex flex-col items-center text-center md:text-left max-w-2xl mx-auto">
+    <div className="bg-gray-950  flex flex-col md:flex-row items-center p-16 pl-10 pr-10 md:pl-40 md:pr-40 min-h-screen">
+      <div className="flex flex-col md:text-left max-w-2xl mx-auto">
+        <span className="text-3xl items-start font-medium">Nosotros Somos</span>
         <h1 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800 mb-12">
           Valle del Software
         </h1>
