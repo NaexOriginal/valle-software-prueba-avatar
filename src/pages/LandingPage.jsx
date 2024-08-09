@@ -12,8 +12,7 @@ export const LandingPage = () => {
 
       <main>
         <CardPresentation />
-        <AboutUs />
-
+        <AboutUs /> {/* Aquí se integra el componente AboutUs */}
 
         <div id="Servicios" className="p-5 min-h-screen bg-gray-950 ">
           <h2 className="text-center md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800 mb-6">Servicios</h2>

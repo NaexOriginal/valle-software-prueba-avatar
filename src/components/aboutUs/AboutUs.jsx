@@ -2,26 +2,26 @@ import '../ui/background.css'
 
 export const AboutUs = () => {
   return (
-    <section id="Sobre-Nosotros" className="bg-black-custom min-h-screen flex flex-col items-center justify-center ">
-      <h2 className="text-center md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800 mb-8">
+    <section id="Sobre-Nosotros" className="bg-black-custom min-h-screen flex flex-col items-center justify-center px-4 md:px-8">
+      <h2 className="text-center text-4xl md:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800 mb-8">
         Sobre Nosotros
       </h2>
 
-      <div className="flex flex-row items-center justify-evenly w-full p-8">
-        <div className='relative group'>
-          <div className='absolute inset-0 bg-gradient-to-r from-sky-600 to-blue-700 rounded-lg blur-md'></div>
-          <div className="relative bg-gray-900 border border-gray-800 p-8 rounded-lg shadow-lg w-full max-w-3xl max-h-svh mx-auto mb-8 overflow-y-auto">
-            <h3 className="text-5xl text-center text-white">Nuestra Misión</h3>
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly w-full p-8 space-y-8 lg:space-y-0 lg:space-x-8">
+        <div className='relative group w-full lg:w-1/2'>
+          <div className='absolute inset-0 bg-gradient-to-r from-sky-600 to-blue-700 rounded-lg blur-md transition-all duration-500 group-hover:blur-none'></div>
+          <div className="relative bg-gray-900 border border-gray-800 p-6 lg:p-8 rounded-lg shadow-lg overflow-hidden">
+            <h3 className="text-3xl md:text-4xl lg:text-5xl text-center text-white mb-4">Nuestra Misión</h3>
             
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center justify-center mb-4'>
               <img 
                 src="/Objetivo.svg" 
                 alt="Logo Misión" 
-                className='w-36 h-36'
+                className='w-24 h-24 md:w-28 md:h-28 lg:w-36 lg:h-36'
               />
             </div>
 
-            <p className="text-center text-lg">
+            <p className="text-center text-sm md:text-base lg:text-lg">
               En El valle del software, nuestra misión es innovar y transformar
               el panorama tecnológico mediante el desarrollo de soluciones de
               inteligencia artificial de vanguardia. Nos dedicamos a crear
@@ -34,20 +34,20 @@ export const AboutUs = () => {
           </div>
         </div>
 
-        <div className='relative group'>
-          <div className='absolute inset-0 bg-gradient-to-l from-sky-600 to-blue-700 rounded-lg blur-md'></div>
-          <div className='relative bg-gray-900 border border-gray-800 p-8 rounded-lg shadow-lg w-full max-w-3xl max-h-svh mx-auto mb-8 overflow-y-auto'>
-            <h3 className="text-5xl text-center text-white">Nuestra Visión</h3>
+        <div className='relative group w-full lg:w-1/2'>
+          <div className='absolute inset-0 bg-gradient-to-l from-sky-600 to-blue-700 rounded-lg blur-md transition-all duration-500 group-hover:blur-none'></div>
+          <div className='relative bg-gray-900 border border-gray-800 p-6 lg:p-8 rounded-lg shadow-lg overflow-hidden'>
+            <h3 className="text-3xl md:text-4xl lg:text-5xl text-center text-white mb-4">Nuestra Visión</h3>
 
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center justify-center mb-4'>
               <img 
                 src='/Mision.svg'
                 alt='Logo Visión'
-                className='w-36 h-36'
+                className='w-24 h-24 md:w-28 md:h-28 lg:w-36 lg:h-36'
               />
             </div>
 
-            <p className="text-center text-lg">
+            <p className="text-center text-sm md:text-base lg:text-lg">
               Nuestra visión en El valle del software es ser reconocidos como
               líderes globales en el desarrollo de tecnologías de inteligencia
               artificial, estableciendo nuevos estándares de excelencia e
