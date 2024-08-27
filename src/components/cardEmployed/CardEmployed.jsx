@@ -1,5 +1,7 @@
 import '../ui/background.css';
 
+
+
 export const CardEmployed = () => {
   return (
     <div id="Equipo" className="bg-black-custom flex flex-col items-center min-h-screen justify-center p-5 overflow-hidden">
