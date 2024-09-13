@@ -49,20 +49,18 @@ export const CardEmployed = () => {
 
       <div ref={scrollRef} className="relative w-full max-w-screen-lg overflow-x-hidden hide-scrollbar">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-transparent to-blue-600 rounded-lg blur-md opacity-30 -z-10"></div>
-        <div className="flex space-x-4 pb-4 scroll-smooth">
+        <div className="flex space-x-6 pb-6 scroll-smooth">
           {[
-            { name: 'David Felipe Vaszquez Pardo', role: 'Junior Software Dev', img: '', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Angel Daniel Diaz Bastidas', role: 'Junior Software Dev', img: '', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Jhon Deivid Ramirez Nuñez', role: 'Junior Software Dev', img: '', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Jonatan Andres Novoa Rodriguez', role: 'Junior Software Dev', img: '', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Daniel Felipe Ortega Gutierrez', role: 'Junior Software Dev', img: '', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Rafael Leonardo Piedrahita Correa', role: 'Junior Software Dev', img: '', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Leonel Lugo Mendoza', role: 'Junior Software Dev', img: '', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Daniel Bastidas', role: 'Junior Software Dev', img: '', logo: '/LogoValleDelSoftware.svg' },
+            { name: 'David Felipe Vaszquez Pardo', role: 'Junior Software Dev', img: '/src/fotos/David.jpg', logo: '/LogoValleDelSoftware.svg' },
+            { name: 'Angel Daniel Diaz Bastidas', role: 'Junior Software Dev', img: '/src/fotos/Daniel.jpg', logo: '/LogoValleDelSoftware.svg' },
+            { name: 'Jhon Deivid Ramirez Nuñez', role: 'Junior Software Dev', img: '/src/fotos/Jhon.jpg', logo: '/LogoValleDelSoftware.svg' },
+            { name: 'Jonatan Andres Novoa Rodriguez', role: 'Junior Software Dev', img: '/src/fotos/Jonatan.jpg', logo: '/LogoValleDelSoftware.svg' },
+            { name: 'Rafael Leonardo Piedrahita Correa', role: 'Junior Software Dev', img: '/src/fotos/Pita.jpg', logo: '/LogoValleDelSoftware.svg' },
+            { name: 'Nicolas Valentin Ordoñez Sarmiento', role: 'Junior Software Dev', img: '/src/fotos/Nicolas.jpg', logo: '/LogoValleDelSoftware.svg' },
           ].map((employee, index) => (
             <div
               key={index}
-              className={`flex-shrink-0 w-80 bg-slate-900 border border-gray-800 text-white p-8 rounded-lg shadow-lg relative cursor-pointer transition-transform duration-300 ${
+              className={`flex-shrink-0 w-96 bg-slate-900 border border-gray-800 text-white p-10 rounded-lg shadow-lg relative cursor-pointer transition-transform duration-300 ${
                 selectedCard === index ? 'transform scale-105 border-blue-500' : ''
               }`}
               onMouseEnter={handleMouseEnter}
@@ -71,12 +69,12 @@ export const CardEmployed = () => {
             >
               <div className="relative z-10">
                 <div className="flex items-center justify-between">
-                  <img src={employee.logo} alt="Logo" className="w-15 h-12 transform" />
+                  <img src={employee.logo} alt="Logo" className="w-16 h-14 transform" />
                 </div>
                 <div className="mt-4">
-                  <div className="flex items-center justify-center mb-2">
-                    <span className="p-2 rounded-full bg-violet-600">
-                      <img src={employee.img} alt="Foto" className="w-16 h-16 rounded-full" />
+                  <div className="flex items-center justify-center mb-4">
+                    <span className="p-2 bg-gradient-to-r from-blue-500 to-blue-800">
+                      <img src={employee.img} alt="Foto" className="w-32 h-32 rounded-lg" />
                     </span>
                   </div>
                   <p className="text-center italic">
