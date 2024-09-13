@@ -51,12 +51,12 @@ export const CardEmployed = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-transparent to-blue-600 rounded-lg blur-md opacity-30 -z-10"></div>
         <div className="flex space-x-6 pb-6 scroll-smooth">
           {[
-            { name: 'David Felipe Vaszquez Pardo', role: 'Junior Software Dev', img: '/src/fotos/David.jpg', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Angel Daniel Diaz Bastidas', role: 'Junior Software Dev', img: '/src/fotos/Daniel.jpg', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Jhon Deivid Ramirez Nuñez', role: 'Junior Software Dev', img: '/src/fotos/Jhon.jpg', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Jonatan Andres Novoa Rodriguez', role: 'Junior Software Dev', img: '/src/fotos/Jonatan.jpg', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Rafael Leonardo Piedrahita Correa', role: 'Junior Software Dev', img: '/src/fotos/Pita.jpg', logo: '/LogoValleDelSoftware.svg' },
-            { name: 'Nicolas Valentin Ordoñez Sarmiento', role: 'Junior Software Dev', img: '/src/fotos/Nicolas.jpg', logo: '/LogoValleDelSoftware.svg' },
+            { name: 'David Felipe Vaszquez Pardo', role: 'Junior Software Dev', img: '/src/fotos/David.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Apasionado por el desarrollo web y la inteligencia artificial.' },
+            { name: 'Angel Daniel Diaz Bastidas', role: 'Junior Software Dev', img: '/src/fotos/Daniel.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Amante de la programación y las soluciones innovadoras.' },
+            { name: 'Jhon Deivid Ramirez Nuñez', role: 'Junior Software Dev', img: '/src/fotos/Jhon.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Siempre dispuesto a aprender y enfrentar nuevos desafíos.' },
+            { name: 'Jonatan Andres Novoa Rodriguez', role: 'Junior Software Dev', img: '/src/fotos/Jonatan.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Comprometido con el desarrollo de software de calidad.' },
+            { name: 'Rafael Leonardo Piedrahita Correa', role: 'Junior Software Dev', img: '/src/fotos/Pita.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Enfocado en la mejora continua y la eficiencia en proyectos.' },
+            { name: 'Nicolas Valentin Ordoñez Sarmiento', role: 'Junior Software Dev', img: '/src/fotos/Nicolas.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Explorador de nuevas tecnologías y metodologías ágiles.' },
           ].map((employee, index) => (
             <div
               key={index}
@@ -78,7 +78,7 @@ export const CardEmployed = () => {
                     </span>
                   </div>
                   <p className="text-center italic">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quisquam nulla optio?
+                    {employee.message}
                   </p>
                   <div className="mt-4 text-center">
                     <p className="font-bold">{employee.name}</p>
