@@ -53,9 +53,9 @@ export const LandingPage = () => {
           <div className="flex flex-col items-center gap-12"> {/* Añadido gap-12 para espacio entre los cuadros */}
             <div className="w-full max-w-4xl">
               <Card>
-                <h3 className="text-center text-4xl">Desarrollo Web</h3>
+                <h3 className="text-center text-4xl">Desarrollo Inteligencia Artificial</h3>
                 <p className="text-center mt-4">
-                  Creamos páginas web innovadoras, integrando inteligencia artificial para llevar tu negocio al siguiente nivel en el mercado tecnológico.
+                Creamos páginas web innovadoras, integrando inteligencia artificial para llevar tu negocio al siguiente nivel en el mercado tecnológico, Valle Del Software es un grupo innovador dedicado al desarrollo de soluciones avanzadas en Inteligencia Artificial. Nuestro equipo de expertos se especializa en crear tecnologías inteligentes que impulsan el progreso en diversos sectores, desde la automatización de procesos hasta el análisis predictivo. En Valle Del Software, estamos comprometidos con el avance continuo en IA, fusionando conocimientos técnicos con una visión ética para ofrecer soluciones que no solo transforman industrias, sino que también mejoran la calidad de vida. Únete a nosotros y descubre cómo nuestra experiencia en Inteligencia Artificial está marcando la diferencia.
                 </p>
                 <div className="mt-6 flex justify-center items-center">
                   <GlowBorder>
@@ -70,12 +70,9 @@ export const LandingPage = () => {
 
             <div className="w-full max-w-4xl">
               <Card>
-                <h3 className="text-center text-4xl">Aplicaciones Móviles</h3>
+                <h3 className="text-center text-4xl">Aplicaciones Móviles En Inteligencia Artificial</h3>
                 <p className="text-center mt-4">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Perferendis saepe, illo modi ea magnam ex hic. Aliquid,
-                  necessitatibus vitae perspiciatis a cum perferendis, eveniet amet
-                  deleniti tempore ullam, assumenda nulla.
+                  Valle Del Software también se destaca en el desarrollo de aplicaciones móviles innovadoras. Nuestro equipo se especializa en crear aplicaciones intuitivas y funcionales que brindan experiencias excepcionales a los usuarios en dispositivos iOS y Android. Desde aplicaciones empresariales hasta soluciones personalizadas para necesidades específicas, nos enfocamos en ofrecer productos de alta calidad que optimizan la eficiencia y mejoran la interacción del usuario. Aprovechamos las últimas tecnologías y tendencias para asegurarnos de que cada aplicación no solo cumpla con las expectativas, sino que las supere. Explora cómo nuestras soluciones móviles pueden transformar tu visión en una experiencia digital fluida y efectiva.
                 </p>
                 <div className="mt-6 flex justify-center items-center">
                   <GlowBorder>
@@ -91,11 +88,8 @@ export const LandingPage = () => {
             <div className="w-full max-w-4xl">
               <Card>
                 <h3 className="text-center text-4xl">Otros</h3>
-                <p className="text-center mt-4">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-                  dignissimos at aspernatur ipsa odit officia accusamus excepturi id
-                  alias nobis ex est expedita iure reprehenderit magni quam,
-                  suscipit quos commodi.
+                <p className="text-center mt-4">         
+                  Otros proyectos en Valle Del Software abarcan una variedad de iniciativas tecnológicas y creativas. Además de nuestro enfoque en Inteligencia Artificial y aplicaciones móviles, exploramos y desarrollamos soluciones innovadoras en diferentes áreas, siempre con el objetivo de resolver problemas y ofrecer valor agregado. Nuestro equipo está abierto a nuevos desafíos y constantemente busca maneras de aplicar la tecnología para mejorar y facilitar diversos aspectos de la vida y los negocios.
                 </p>
                 <div className="mt-6 flex justify-center items-center">
                   <GlowBorder>
