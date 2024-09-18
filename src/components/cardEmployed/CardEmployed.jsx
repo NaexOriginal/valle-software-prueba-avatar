@@ -57,6 +57,7 @@ export const CardEmployed = () => {
             { name: 'Jonatan Andres Novoa Rodriguez', role: 'Junior Software Dev', img: '/src/fotos/Jonatan.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Comprometido con el desarrollo de software de calidad.' },
             { name: 'Rafael Leonardo Piedrahita Correa', role: 'Junior Software Dev', img: '/src/fotos/Pita.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Enfocado en la mejora continua y la eficiencia en proyectos.' },
             { name: 'Nicolas Valentin Ordoñez Sarmiento', role: 'Junior Software Dev', img: '/src/fotos/Nicolas.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Explorador de nuevas tecnologías y metodologías ágiles.' },
+            { name: 'Juan Sebastian Garcia Redondo', rol: 'Junior Software Dev', img: '', logo: '/LogoValleDelSoftware.svg', message: 'Comprometido con el desarrollo de software de calidad.'}
           ].map((employee, index) => (
             <div
               key={index}
