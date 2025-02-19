@@ -43,6 +43,7 @@ export const LandingPage = () => {
       <NavBarSticky />
 
       <main>
+
         <CardPresentation />
         <AboutUs />
 
@@ -105,7 +106,7 @@ export const LandingPage = () => {
         </div>
 
         <CardEmployed />
-        <ContactForm />
+        {/* <ContactForm /> */}
       </main>
       <Footer />
     </div>
