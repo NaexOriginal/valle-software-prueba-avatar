@@ -51,13 +51,14 @@ export const CardEmployed = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-transparent to-blue-600 rounded-lg blur-md opacity-30 -z-10"></div>
         <div className="flex space-x-6 pb-6 scroll-smooth">
           {[
-            { name: 'David Felipe Vaszquez Pardo', role: 'Junior Software Dev', img: '/src/fotos/David.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Apasionado por el desarrollo web y la inteligencia artificial.' },
-            { name: 'Angel Daniel Diaz Bastidas', role: 'Junior Software Dev', img: '/src/fotos/Daniel.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Amante de la programación y las soluciones innovadoras.' },
-            { name: 'Jhon Deivid Ramirez Nuñez', role: 'Junior Software Dev', img: '/src/fotos/Jhon.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Siempre dispuesto a aprender y enfrentar nuevos desafíos.' },
-            { name: 'Jonatan Andres Novoa Rodriguez', role: 'Junior Software Dev', img: '/src/fotos/Jonatan.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Comprometido con el desarrollo de software de calidad.' },
-            { name: 'Rafael Leonardo Piedrahita Correa', role: 'Junior Software Dev', img: '/src/fotos/Pita.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Enfocado en la mejora continua y la eficiencia en proyectos.' },
-            { name: 'Nicolas Valentin Ordoñez Sarmiento', role: 'Junior Software Dev', img: '/src/fotos/Nicolas.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Explorador de nuevas tecnologías y metodologías ágiles.' },
-            { name: 'Juan Sebastian Garcia Redondo', rol: 'Junior Software Dev', img: '', logo: '/LogoValleDelSoftware.svg', message: 'Comprometido con el desarrollo de software de calidad.'}
+            { name: 'Leonel Lugo Medonza', role: 'Direccion', img: '/src/fotos/Leonel.jpeg', logo: '/LogoValleDelSoftware.svg', message: 'Apasionado por el desarrollo web y la inteligencia artificial.' },
+            { name: 'Daniel Felipe Ortega', role: 'Lider', img: '/src/fotos/Daniel.jpeg', logo: '/LogoValleDelSoftware.svg', message: 'Apasionado por el desarrollo web y la inteligencia artificial.' },
+            { name: 'Nicolas Valentin Ordoñez Sarmiento', role: 'Lider', img: '/src/fotos/Nicolas.jpg', logo: '/LogoValleDelSoftware.svg', message: 'Amante de la programación y las soluciones innovadoras.' },
+            { name: 'David Felipe Vazques Pardo', role: 'Desarrollador FullStack', img: '/src/fotos/David.jpeg', logo: '/LogoValleDelSoftware.svg', message: 'Siempre dispuesto a aprender y enfrentar nuevos desafíos.' },
+            { name: 'Miguel Angel Vanegas', role: 'Desarrollador FullStack', img: '/src/fotos/.jpeg', logo: '/LogoValleDelSoftware.svg', message: 'Comprometido con el desarrollo de software de calidad.' },
+            { name: 'Adrian David Bravo Montoya', role: 'Desarrollador Backend', img: '/src/fotos/Adrian.jpeg', logo: '/LogoValleDelSoftware.svg', message: 'Enfocado en la mejora continua y la eficiencia en proyectos.' },
+            { name: 'David Alejandro Ballestero Padilla', role: 'Desarrollador Backend', img: '/src/fotos/David V.jpeg', logo: '/LogoValleDelSoftware.svg', message: 'Explorador de nuevas tecnologías y metodologías ágiles.' },
+            { name: 'Carol Nicol Clavijo Bonilla', rol: 'Desarrollador Frontend', img: '/src/fotos/Nicol.jpeg', logo: '/LogoValleDelSoftware.svg', message: 'Comprometido con el desarrollo de software de calidad.'}
           ].map((employee, index) => (
             <div
               key={index}
