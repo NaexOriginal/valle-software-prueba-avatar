@@ -13,11 +13,13 @@ export const CardPresentation = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-sky-600 to-blue-700 rounded-lg blur-md"></div>
           <div className="relative border border-gray-800 rounded-lg bg-gray-900 p-6">
             <p className="text-lg p-1">
-              Bienvid@ al Valle del Software, nosotros nos encargamos de realizar sus trabajos a nombre de Universitaria de Colombia.
+              Bienvid@ al Valle del Software, nosotros nos encargamos de realizar sus trabajos a nombre de Universitaria de Colombia, Valle del software es un grupo de desarrollo e investigacion comprometido con la innovacion tecnologica y la trasnformacion digital.
+              Nuestro proposito es diseñar, desarrollar e implementar soluciones tecnologicas avanzadas que integren inteligencia artificial, mejorando asi la eficiencia y funcionalidad de aplicaciones y platadormas digitales.
+              Nos enfocamos en la creacion de paginas web y aplicaciones inteligentes, empleando metodologias agiles y teconologias de vanguardia para ofrecer productos que se adapten a las necesidades del entorno digital actual.
             </p>
           </div>
         </div>
-        
+
       </div>
       <section className=' lg:w-2/5 lg:ml-10 w-full mt-10'>
         <AvatarCanvas />

@@ -47,61 +47,110 @@ export const LandingPage = () => {
         <CardPresentation />
         <AboutUs />
 
-        <div id="Servicios" className="p-5 min-h-screen bg-gray-950 ">
-          <h2 className="text-center md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800 mb-6">Servicios</h2>
-          
-          {/* Contenedor Flexbox para centrar los cuadros verticalmente */}
-          <div className="flex flex-col items-center gap-12"> {/* Añadido gap-12 para espacio entre los cuadros */}
-            <div className="w-full max-w-4xl">
-              <Card>
-                <h3 className="text-center text-4xl">Desarrollo Inteligencia Artificial</h3>
-                <p className="text-center mt-4">
-                Creamos páginas web innovadoras, integrando inteligencia artificial para llevar tu negocio al siguiente nivel en el mercado tecnológico, Valle Del Software es un grupo innovador dedicado al desarrollo de soluciones avanzadas en Inteligencia Artificial. Nuestro equipo de expertos se especializa en crear tecnologías inteligentes que impulsan el progreso en diversos sectores, desde la automatización de procesos hasta el análisis predictivo. En Valle Del Software, estamos comprometidos con el avance continuo en IA, fusionando conocimientos técnicos con una visión ética para ofrecer soluciones que no solo transforman industrias, sino que también mejoran la calidad de vida. Únete a nosotros y descubre cómo nuestra experiencia en Inteligencia Artificial está marcando la diferencia.
-                </p>
-                <div className="mt-6 flex justify-center items-center">
-                  <GlowBorder>
-                    <img 
-                    src="/Desarrollo-Web.svg" 
-                    alt="Logo desarrollo web" 
-                    className="h-48 w-48 rounded-full" /> {/* Aumentado el tamaño de la imagen */}
-                  </GlowBorder>
-                </div>
-              </Card>
-            </div>
+        <div id="Servicios" className="p-5 min-h-screen bg-gray-950">
+          <h2 className="text-center md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800 mb-6">
+            Servicios
+          </h2>
 
-            <div className="w-full max-w-4xl">
-              <Card>
-                <h3 className="text-center text-4xl">Aplicaciones Móviles En Inteligencia Artificial</h3>
-                <p className="text-center mt-4">
-                  Valle Del Software también se destaca en el desarrollo de aplicaciones móviles innovadoras. Nuestro equipo se especializa en crear aplicaciones intuitivas y funcionales que brindan experiencias excepcionales a los usuarios en dispositivos iOS y Android. Desde aplicaciones empresariales hasta soluciones personalizadas para necesidades específicas, nos enfocamos en ofrecer productos de alta calidad que optimizan la eficiencia y mejoran la interacción del usuario. Aprovechamos las últimas tecnologías y tendencias para asegurarnos de que cada aplicación no solo cumpla con las expectativas, sino que las supere. Explora cómo nuestras soluciones móviles pueden transformar tu visión en una experiencia digital fluida y efectiva.
-                </p>
-                <div className="mt-6 flex justify-center items-center">
-                  <GlowBorder>
-                  <img
-                      src="/Movil.svg" 
-                      alt="Logo Desarrollo Movil" 
-                      className="h-48 w-48 rounded-full" /> {/* Aumentado el tamaño de la imagen */}
-                  </GlowBorder>
-                </div>
-              </Card>
-            </div>
+          <div className="flex flex-row flex-wrap justify-center gap-6">
+            <Card>
+              <h3 className="text-center text-4xl">Desarrollo Inteligencia Artificial</h3>
+              <p className="text-center mt-4">
+                Valle Del Software desarrolla soluciones innovadoras en inteligencia artificial para
+                impulsar negocios y transformar industrias. Su equipo de expertos crea tecnologías
+                avanzadas en automatización y análisis predictivo, combinando innovación con una
+                visión ética para mejorar la calidad de vida.
+              </p>
+              <div className="mt-6 flex justify-center items-center">
+                <GlowBorder>
+                  <img src="/Desarrollo-Web.svg" alt="Logo desarrollo web" className="h-48 w-48 rounded-full" />
+                </GlowBorder>
+              </div>
+            </Card>
 
-            <div className="w-full max-w-4xl">
-              <Card>
-                <h3 className="text-center text-4xl">Otros</h3>
-                <p className="text-center mt-4">         
-                  Otros proyectos en Valle Del Software abarcan una variedad de iniciativas tecnológicas y creativas. Además de nuestro enfoque en Inteligencia Artificial y aplicaciones móviles, exploramos y desarrollamos soluciones innovadoras en diferentes áreas, siempre con el objetivo de resolver problemas y ofrecer valor agregado. Nuestro equipo está abierto a nuevos desafíos y constantemente busca maneras de aplicar la tecnología para mejorar y facilitar diversos aspectos de la vida y los negocios.
-                </p>
-                <div className="mt-6 flex justify-center items-center">
-                  <GlowBorder>
-                  <img
-                      src="/Entre-Otros.svg" 
-                      alt="Logo Desarrollo Extra" 
-                      className="h-48 w-48 rounded-full" /> {/* Aumentado el tamaño de la imagen */}
-                  </GlowBorder>
-                </div>
-              </Card>
-            </div>
+            <Card>
+              <h3 className="text-center text-4xl">Aplicaciones Móviles En Inteligencia Artificial</h3>
+              <p className="text-center mt-4">
+                Valle Del Software desarrolla aplicaciones móviles innovadoras para iOS y Android,
+                creando experiencias intuitivas y funcionales. Su equipo diseña soluciones personalizadas
+                y empresariales, optimizando la eficiencia y mejorando la interacción del usuario con
+                tecnología de vanguardia.
+              </p>
+              <div className="mt-6 flex justify-center items-center">
+                <GlowBorder>
+                  <img src="/Movil.svg" alt="Logo Desarrollo Movil" className="h-48 w-48 rounded-full" />
+                </GlowBorder>
+              </div>
+            </Card>
+
+            <Card>
+              <h3 className="text-center text-4xl">Otros</h3>
+              <p className="text-center mt-4">
+                Valle Del Software impulsa iniciativas tecnológicas y creativas, explorando soluciones
+                innovadoras más allá de la IA y las aplicaciones móviles. Su equipo afronta nuevos desafíos
+                para aplicar tecnología que mejore la vida y los negocios.
+              </p>
+              <div className="mt-6 flex justify-center items-center">
+                <GlowBorder>
+                  <img src="/Entre-Otros.svg" alt="Logo Desarrollo Extra" className="h-48 w-48 rounded-full" />
+                </GlowBorder>
+              </div>
+            </Card>
+          </div>
+        </div>
+
+        <div id="Proyectos" className="p-5 bg-gray-950">
+          <h2 className="text-center md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800 mb-6">Proyectos Realizados</h2>
+          <br />
+          <div className="flex flex-wrap justify-center gap-6">
+            <Card>
+              <h3 className="text-center text-3xl">Bolsa de Empleo</h3>
+              <p className="text-center mt-4">API de gestión de empleo que centraliza múltiples bolsas de trabajo y plataformas empresariales, permitiendo a las empresas publicar ofertas, a los usuarios postularse y optimizar su perfil con IA, mejorando la conexión entre talento y oportunidades laborales.</p>
+              <div className="mt-4 text-center">
+                {/* <a href="https://github.com/usuario/repositorio1" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600">Ver en GitHub</a> */}
+              </div>
+              <div className="mt-6 flex justify-center items-center">
+                <GlowBorder>
+                  <img src="/briefcase.png" alt="Logo desarrollo web" className="h-48 w-48 " />
+                </GlowBorder>
+              </div>
+            </Card>
+            <Card>
+              <h3 className="text-center text-3xl">Biometricos</h3>
+              <p className="text-center mt-4">Sistema de gestión de asistencia para docentes que registra entradas y salidas, envía notificaciones automatizadas por WhatsApp y realiza análisis de datos para optimizar el control y seguimiento..</p>
+              <div className="mt-4 text-center">
+                {/* <a href="https://github.com/usuario/repositorio2" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600">Ver en GitHub</a> */}
+              </div>
+              <div className="mt-6 flex justify-center items-center">
+                <GlowBorder>
+                  <img src="/touch-id.png" alt="Logo desarrollo web" className="h-48 w-48 " />
+                </GlowBorder>
+              </div>
+            </Card>
+            <Card>
+              <h3 className="text-center text-3xl">Consultorio Psciologico</h3>
+              <p className="text-center mt-4">El proyecto "Consultorio Psicológico" es una plataforma web para gestionar pacientes, personal y citas. Permite registrar y administrar historiales clínicos, agendar citas y visualizar información relevante, optimizando la atención psicológica.</p>
+              <div className="mt-4 text-center">
+                {/* <a href="https://github.com/usuario/repositorio2" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600">Ver en GitHub</a> */}
+              </div>
+              <div className="mt-6 flex justify-center items-center">
+                <GlowBorder>
+                  <img src="/psychology.png" alt="Logo desarrollo web" className="h-48 w-48 " />
+                </GlowBorder>
+              </div>
+            </Card>
+            <Card>
+              <h3 className="text-center text-3xl">IPS</h3>
+              <p className="text-center mt-4">Sistema integral para IPS que unifica tres soluciones en una: gestión de turnos mediante pantalla interactiva, comunicación interna a través de un chat para el personal y agendamiento eficiente de citas, optimizando la atención y coordinación.</p>
+              <div className="mt-4 text-center">
+                {/* <a href="https://github.com/usuario/repositorio2" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600">Ver en GitHub</a> */}
+              </div>
+              <div className="mt-6 flex justify-center items-center">
+                <GlowBorder>
+                  <img src="/hospital.png" alt="Logo desarrollo web" className="h-48 w-48 " />
+                </GlowBorder>
+              </div>
+            </Card>
           </div>
         </div>
 
